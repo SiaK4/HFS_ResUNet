@@ -14,3 +14,9 @@ The codes are tested and compatible with Python 3.9.16 and the following depende
 Pytorch 2.4.1 + Cuda 12.1 toolkit  
 Numpy 1.24.1  
 
+---
+
+## Training
+
+Run train_HFS.py for training the subcooled pool boiling problem.  
+Run train_kolmogorov_HFS.py for training the Kolmogorov flow problem.
