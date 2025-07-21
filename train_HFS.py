@@ -18,7 +18,7 @@ torch.cuda.empty_cache()
 batch_size = 4
 
 # Loading the data
-data_dir = '/users/skhodaka/data/skhodaka/BubbleML/PoolBoiling-SubCooled-FC72-2D'
+data_dir = './BubbleML/PoolBoiling-SubCooled-FC72-2D'
 training_files = ['Twall-79.hdf5','Twall-81.hdf5','Twall-85.hdf5','Twall-90.hdf5','Twall-100.hdf5','Twall-103.hdf5','Twall-106.hdf5','Twall-110.hdf5']
 training_files = [os.path.join(data_dir,file) for file in training_files]
 validation_files = ['Twall-95.hdf5','Twall-98.hdf5']
