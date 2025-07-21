@@ -18,7 +18,7 @@ torch.cuda.empty_cache()
 batch_size = 8
 
 # Loading the data
-data_dir = '/users/skhodaka/data/skhodaka/Vivek_data/kolmogorov_data.npz'
+data_dir = './kolmogorov_data.npz'
 train_dataset = CustomDataset(data_dir=data_dir, mode='train')
 
 train_min, train_max = train_dataset.get_min_max()
@@ -127,5 +127,5 @@ model = ResUNet(in_c = 20,out_c = 5, features = [32,64,64,128,128], bottleneck_f
 if torch.cuda.is_available():
     device = torch.device('cuda')
 
-save_dir = 'directory/to/save/checkpoints'   ## Add your directory to save the checkpoints
+save_dir = 'checkpoints'   ## Add your directory to save the checkpoints
 train(model, epoch_number=1000, learning_rate=8e-4,target_lr=8e-4,checkpoint_name=save_dir+'kolmo_HFS',display_every=10,checkpoint_interval=5,warmup_steps=10)
