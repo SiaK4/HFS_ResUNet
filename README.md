@@ -27,8 +27,8 @@ Prior the running the training scripts, download the data and place them in the 
 a) Subcooled pool boiling data: './BubbleML/PoolBoiling-SubCooled-FC72-2D'  
 b) Kolmogorov flow data: './kolmogorov_data.npz'  
 
-### Download the Subcooled Pool Boiling study consisting of 10 simulations (source: https://github.com/HPCForge/BubbleML/tree/main)  
+##### Download the Subcooled Pool Boiling study consisting of 10 simulations (source: https://github.com/HPCForge/BubbleML/tree/main)  
 wget https://bubble-ml-simulations.s3.us-east-2.amazonaws.com/pool-boiling-subcooled-fc72-2d.tar.gz  
 tar -xvzf pool-boiling-subcooled-fc72-2d.tar.gz && rm pool-boiling-subcooled-fc72-2d.tar.gz  
 
-### Download the Kolmogorov flow problem
+##### Download the Kolmogorov flow problem
