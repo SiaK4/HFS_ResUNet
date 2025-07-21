@@ -11,3 +11,6 @@ The code is implemented using **PyTorch**.
 ## Requirements
 
 The codes are tested and compatible with Python 3.9.16 and the following dependencies:
+Pytorch 2.4.1 + Cuda 12.1 toolkit
+Numpy 1.24.1
+
