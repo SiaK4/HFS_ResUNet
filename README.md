@@ -32,4 +32,10 @@ wget https://bubble-ml-simulations.s3.us-east-2.amazonaws.com/pool-boiling-subco
 tar -xvzf pool-boiling-subcooled-fc72-2d.tar.gz && rm pool-boiling-subcooled-fc72-2d.tar.gz  
 
 ##### Download the Kolmogorov flow problem (data to be shared soon...)  
-Follow the notebook from this source: https://github.com/vivekoommen/NeuralOperator_DiffusionModel/blob/main/case_1_kolmogorov/data/ns_data_generator.ipynb
+Follow the notebook from this source: https://github.com/vivekoommen/NeuralOperator_DiffusionModel/blob/main/case_1_kolmogorov/data/ns_data_generator.ipynb  
+
+---
+# Remark  
+Based on our experience, the subcooled pool boiling problem with the problem setup described in the paper converges in less than 1000 epochs.  
+Based on our experience, the Kolmogorov flow problem with the problem setup described in the paper converges in less than 300 epochs.  
+
