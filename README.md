@@ -5,3 +5,9 @@ This repository contains the code for our paper by Siavash Khodakarami, Vivek Oo
 **"Mitigating Spectral Bias in Neural Operators via High-Frequency Scaling for Physical Systems"**
 
 The code is implemented using **PyTorch**.
+
+---
+
+## Requirements
+
+The codes are tested and compatible with Python 3.9.16 and the following dependencies:
