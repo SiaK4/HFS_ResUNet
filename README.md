@@ -31,4 +31,5 @@ b) Kolmogorov flow data: './kolmogorov_data.npz'
 wget https://bubble-ml-simulations.s3.us-east-2.amazonaws.com/pool-boiling-subcooled-fc72-2d.tar.gz  
 tar -xvzf pool-boiling-subcooled-fc72-2d.tar.gz && rm pool-boiling-subcooled-fc72-2d.tar.gz  
 
-##### Download the Kolmogorov flow problem
+##### Download the Kolmogorov flow problem (data to be shared soon...)  
+Follow the notebook from this source: https://github.com/vivekoommen/NeuralOperator_DiffusionModel/blob/main/case_1_kolmogorov/data/ns_data_generator.ipynb
