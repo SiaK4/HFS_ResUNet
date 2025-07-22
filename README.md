@@ -36,6 +36,6 @@ Follow the notebook from this source: https://github.com/vivekoommen/NeuralOpera
 
 ---
 # Remark  
-Based on our experience, the subcooled pool boiling problem with the problem setup described in the paper converges in less than 1000 epochs.  
-Based on our experience, the Kolmogorov flow problem with the problem setup described in the paper converges in less than 300 epochs.  
+Based on our experience, the subcooled pool boiling problem with the problem setup described in the paper converges in less than 1000 epochs (for a model with 3.5 M parameter).  
+Based on our experience, the Kolmogorov flow problem with the problem setup described in the paper converges in less than 300 epochs (for a model with 1.7 M parameter).
 
