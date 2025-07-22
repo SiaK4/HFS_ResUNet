@@ -137,4 +137,4 @@ model = ResUNet(in_c = 25, out_c = 5, features=[32,64,64,128,128], bottleneck_fe
 if torch.cuda.is_available():
     device = torch.device('cuda')
 
-train(model, epoch_number=1400, learning_rate=8e-4,target_lr=8e-4,checkpoint_name='check_HFS',display_every=1,checkpoint_interval=20,warmup_steps=10)
+train(model, epoch_number=1400, learning_rate=8e-4,target_lr=8e-4,checkpoint_name='HFS',display_every=1,checkpoint_interval=20,warmup_steps=10)
