@@ -37,7 +37,8 @@ Follow the notebook from this source: https://github.com/vivekoommen/NeuralOpera
 ---
 # Checkpoints
 Checkpoints for subcooled pool boiling models with and without high-frequency scaling are included in "Ckpts" directory.  
-Checkpoints for Kolmogorov flow problem will be shared soon.
+Checkpoints for Kolmogorov flow problem will be shared soon.  
+Checkpoints for saturated pool boiling problem will be shared soon.
 
 ---
 # Remark  
