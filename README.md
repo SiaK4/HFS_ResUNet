@@ -17,7 +17,7 @@ Numpy 1.24.1
 ---
 
 ## Training
-
+First, download the data and put them in the correct directory (see dataset section)
 Run train_HFS.py for training the subcooled pool boiling problem.  
 Run train_kolmogorov_HFS.py for training the Kolmogorov flow problem.
 
@@ -33,6 +33,11 @@ tar -xvzf pool-boiling-subcooled-fc72-2d.tar.gz && rm pool-boiling-subcooled-fc7
 
 ##### Download the Kolmogorov flow problem (data to be shared soon...)  
 Follow the notebook from this source: https://github.com/vivekoommen/NeuralOperator_DiffusionModel/blob/main/case_1_kolmogorov/data/ns_data_generator.ipynb  
+
+---
+# Checkpoints
+Checkpoints for subcooled pool boiling models with and without high-frequency scaling are included in "Ckpts" directory.  
+Checkpoints for Kolmogorov flow problem will be shared soon.
 
 ---
 # Remark  
