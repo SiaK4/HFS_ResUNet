@@ -3,7 +3,7 @@
 This repository contains the code for our paper by Siavash Khodakarami, Vivek Oommen, Aniruddha Bora, and George Em Karniadakis.
 
 **"Mitigating Spectral Bias in Neural Operators via High-Frequency Scaling for Physical Systems"**  
-*Read the paper here:* [(https://arxiv.org/abs/2503.13695)](https://www.sciencedirect.com/science/article/pii/S0893608025009074)  
+*Read the paper here:* [Neural Networks Journal](https://www.sciencedirect.com/science/article/pii/S0893608025009074)  
 The code is implemented using **PyTorch**.
 
 ---
